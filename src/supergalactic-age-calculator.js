@@ -1,7 +1,7 @@
 export class Person {
-  // constructor (age, lifestyle) {
-  //   this.age = age;
-  //   this.lifestyle= lifestyle;
+  constructor (age, lifeexpectancy) {
+    this.age = age;
+    this.lifeexpectancy = lifeexpectancy;
   }
 
 
