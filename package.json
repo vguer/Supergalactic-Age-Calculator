@@ -1,7 +1,7 @@
 {
-  "name": "project-name",
+  "name": "supergalactic",
   "version": "1.0.0",
-  "description": "description-here",
+  "description": "Takes a person's Earth age and returns their age in various planetary years",
   "main": "main.js",
   "scripts": {
     "build": "webpack --mode development",
@@ -11,7 +11,7 @@
     "debug": "node --inspect-brk node_modules/.bin/jest --runInBand"
   },
   "keywords": [],
-  "author": "your-name-here",
+  "author": "Vanessa Guerrero",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.6.4",
@@ -20,6 +20,8 @@
     "css-loader": "^3.2.0",
     "eslint": "^6.3.0",
     "eslint-loader": "^3.0.0",
+    "file-loader": "^1.1.6",
+    "html-loader": "^0.5.5",
     "html-webpack-plugin": "^3.2.0",
     "jest": "^24.9.0",
     "style-loader": "^1.0.0",
