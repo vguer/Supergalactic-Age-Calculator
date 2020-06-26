@@ -7,6 +7,7 @@ export class Calculate {
   //}
 }
 
-checkAge() {
+//checkAge() {
+
   
-}
+//}
