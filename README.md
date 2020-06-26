@@ -1,4 +1,4 @@
-# Supergalactic Age Calculator Calculator
+# Supergalactic Age Calculator 
 
 #### An independent project for Epicodus, 6.26.2020
 
@@ -6,16 +6,16 @@
 
 ## Description
 
-This application allows users to calculate their Earth years in planetary years.
+This application allows users to calculate their Earth age in planetary years. It also determines how many years a user has left to live on each planet. If the user already surpassed the average life expectancy on that planet, it will calculate the number of years they have lived past their life expectancy.
 
 ### Specs
 | Spec         | Input | Output |
 | :----------- | :----- | :----- |
-| Program will display three fields to enter month, day, year | No input necessary | __/ __/ ____ |
-| Program will only allow number symbols to be inputted    | 06/ t4/ 2020 | please enter numbers |
-| Program will accept two integers for month and day    | 06/ 24/ 2020 | ------------- |
-| Program will accept four integers for year | 06/ 24/ 20 | Please enter a year |
-| Program will calculate user's input to display the day that date inputted lands on | 06/ 24/ 2020 | Wednesday |
+| Program will collect user's age | 30 | ---  |
+| Program will collect user's lifestyle | Active or Sedentary | --- |
+| Program will calculate user's age in Mercury, Venus, Mars, and Jupiter years | 30 | Age in Mercury: 7.2, Age in Venus: 18.6, Age in Mars: 56.4, Age in Jupiter: 355.8 |
+| Program will calculate life expectancy based on user's age and lifestyle for planets Mercucy, Venus, Mars and Jupeter  | 30, sendentary | Mercury: 16.8, Venus: 43.4, Mars: 131.6, Jupiter: 830.2 |
+| If the user's age has surpassed their lifestyle's life expectancy, program will return the number of years they have lived past their life expectancy | 72, sedentary | Mercury: 0.48, Venus: 1.24, Mars: 3.76, Jupiter: 23.72|
 
 ## Setup/Installation Requirements
 
