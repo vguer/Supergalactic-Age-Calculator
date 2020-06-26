@@ -4,7 +4,13 @@ export class Person {
     this.lifeexpectancy = lifeexpectancy;
   }
 
-
+checkPlanet() {
+  let inputAge = new Array(4);
+  inputAge[0] = (this.age * .24);
+    inputAge[1] = (this.age * .62);
+    inputAge[2] = (this.age * 1.88);
+    inputAge[3] = (this.age * 11.86);
+}
 
 
 // checkPlanet() {
