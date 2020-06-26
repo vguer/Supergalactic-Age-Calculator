@@ -1,13 +1,12 @@
-import { Age } from '../src/supergalactic-age-calculator.js';
+import { Person } from '../src/supergalactic-age-calculator.js';
 
 describe ('Age', () => {
   test('should calculate age in planetary years', () => {
-    let planetAge = new Age(30);
-    expect(planteAge.checkAge()).toEqual(7.2);
+    let planetAge = new Person(30);
+    expect(planetAge.checkPlanet()).toEqual(7.2);
   })
 })
 
- 
 
   
 
